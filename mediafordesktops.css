@@ -1,0 +1,206 @@
+@media (min-width: 1024px) and (max-width: 1250px) {
+
+
+body {
+  height: 3850px;
+}
+
+
+container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  ma
+
+}
+.name {
+  text-align: center;
+  margin-top: -200px;
+}
+
+.diz {
+   font-family: 'MyCustomFont', sans-serif;
+  font-size: 100px;
+  color: white;
+  margin-bottom: 0px;
+  letter-spacing: 25px;
+}
+.sep {
+  text-align: 100px;
+  width: 50%;
+  height: 5px;
+  background-color: white;
+}
+.icons {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  filter: invert(100%);
+  align-items: center;
+  gap: 50px;
+/*  transition: 1s;*/
+  margin-top: 20px;
+}
+
+.middlesection {
+     padding-top: 50px;
+     display: block;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     color: white;
+  
+}
+.webdes {
+     margin-top: 0px;
+      margin-bottom: 10px;
+       font-size:110px;
+        font-family: 'Abril Fatface', cursive;
+         padding-top: 0px;
+          animation: shadow-drop-center 1.5s ease-in-out 1s both;
+           padding-bottom: 0px;
+            margin-top: -50px;
+}
+
+
+
+
+
+.front {
+     margin-bottom: 30px;
+      margin-top: 25px;
+       font-family: 'Abril Fatface', cursive;
+      padding-bottom: 0px;
+       animation: shadow-drop-center 1.5s ease-in-out 1s both;
+        font-size:65px;
+
+}
+
+.heading {
+margin-top: -50px;
+}
+
+.supporttwo {
+  display: block;
+}
+.support {
+  display: none;
+}
+
+ul {
+   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.mediaonly {
+  display: block;
+  width:30%;
+  margin-top:5px;
+  background-color: white;
+}
+
+.med {
+    text-align: center;
+}
+.total {
+     display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 25px;
+  gap: 100px;
+}
+
+.experience {
+     display: block;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+   border: 10px solid  #E5E4E2;
+  border-radius:  ;
+  
+  border-bottom-style: white;
+  border-bottom-style:double;
+  border-top-style:double;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-right-style: none;
+  border-left-style: none;
+  position: relative;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+   padding: 25px;
+
+
+}
+
+
+
+.specialised {
+     display: block;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+
+
+   border: 10px solid #E5E4E2;
+  border-radius:  ;
+   border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-style:double;
+  border-top-style:double;
+  border-right-style: none;
+  border-left-style: none;
+   border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  
+
+
+ }
+
+ footer {
+  text-align: center;
+  
+}
+
+
+@media (min-width: 1250px)  {
+
+.webdes {
+     margin-top: 0px;
+      margin-bottom: 0px;
+       font-size:150px;
+        font-family: 'Abril Fatface', cursive;
+         padding-top: 0px;
+          animation: shadow-drop-center 1.5s ease-in-out 1s both;
+           padding-bottom: 0px;
+            margin-top: -50px;
+}
+
+.front {
+     margin-bottom: 0px;
+      margin-top: 10px;
+       font-family: 'Abril Fatface', cursive;
+      padding-bottom: 0px;
+       animation: shadow-drop-center 1.5s ease-in-out 1s both;
+        font-size:100px;
+}
+
+
+
+
+
+  }
